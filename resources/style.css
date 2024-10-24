@@ -1,0 +1,129 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+p {
+  font-size: 1rem;
+  word-spacing: 2px;
+  line-height: 2;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  margin-bottom: 5px;
+  height: 200px;
+}
+
+button {
+  background-color: #e0ffff;
+  font-size: 12px;
+  padding: 8px 25px;
+  border-radius: 12px;
+  font-weight: 700;
+  color: #2ec6f7;
+  border: 2px solid #2ec6f7;
+}
+
+button:hover {
+  background-color: hsl(197, 100%, 50%);
+  color: #e0ffff;
+}
+
+button:active {
+  background-color: #318ce7;
+}
+
+#box {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  margin: 50px 100px;
+  padding: 50px;
+  width: 1000px;
+  height: 600px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8); /* Adjusted shadow */
+}
+
+#underline {
+  color: #2ec6f7;
+  background-color: #2ec6f7;
+  width: 120px;
+  height: 5px;
+  margin: 5px auto;
+}
+
+#img-head {
+  width: 100%; /* Make the image fill the container */
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+#img-container {
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px; /* Ensure the container's width and height are equal */
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 8px -5px #2ec6f7;
+}
+
+#review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+  font-size: 4em;
+  margin-bottom: 0px;
+}
+
+#name {
+  letter-spacing: 3.5px;
+  margin-top: 15px;
+  margin-bottom: 3px;
+}
+
+#job {
+  color: #2ec6f7;
+  font-size: large;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+
+#bubble {
+  position: absolute; /* Allows the bubble to be placed on top of the image */
+  width: 50px; /* Size of the bubble */
+  height: 50px; /* Blue color */
+  border-radius: 50%; /* Makes it a circle */
+  z-index: 1;
+}
+
+#quote {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+#direction {
+  margin: 10px 0px;
+  background-color: #fff;
+  border: none;
+  font-size: 35px;
+  padding-top: 0;
+  opacity: 75%;
+}
+
+#direction:hover,
+#forward:hover,
+#back:hover {
+  color: #000;
+}
